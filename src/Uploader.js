@@ -44,7 +44,9 @@ class Uploader extends Component {
 
       const image = this.state.selectedFile;
       console.log(image);
-      const buffer = Buffer.from(JSON.stringify(image));
+      let str = image.toString('base64')
+      const buffer = Buffer.from(str, 'base64')
+      //const buffer = Buffer.from(image);
       const file = [new File([buffer], "image.png")];
       console.log(file);
       const client = makeStorageClient();
