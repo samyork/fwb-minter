@@ -2,6 +2,6 @@
 ### `yarn start`
 
 todos: 
-fix uploader
-fix metadata
+fix uploader,
+fix metadata,
 push auctionhouse
