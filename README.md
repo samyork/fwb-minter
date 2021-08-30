@@ -6,5 +6,5 @@ fix uploader,
 fix metadata,
 push auctionhouse
 
-### acutionhouse:
+### auctionhouse:
 https://github.com/samyork/fwbauction/tree/main/auctionhouse
